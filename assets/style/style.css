@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heroe {
+    width: 70vh;
+    min-width: 50vh;
+    margin: 3vh;
+    padding: 2vh;
+    padding-top: 0vh;
+    background-color: rgb(166, 230, 250);
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(22, 22, 117);
+}
+
+.images {
+    width: 50vh;
+    margin-bottom: 0.83em;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+}
+
+.inputbox {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.rating {
+    margin-bottom: 0.83em;
+}
