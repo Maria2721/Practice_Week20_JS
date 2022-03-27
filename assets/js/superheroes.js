@@ -1,5 +1,6 @@
 let json = `[{
     "name": "Бэтмен",
+    "ratingname": "batman",
     "universe": "DC Comics",
     "alter_ego": "Брюс Уэйн",
     "activity": "борец с преступностью, филантроп, миллиардер",
@@ -9,6 +10,7 @@ let json = `[{
     "photo": "/batman.jpg"
 },{
     "name": "Супермен",
+    "ratingname": "superman",
     "universe": "DC Comics",
     "alter_ego": "Кларк Кент",
     "activity": "борец за справедливость",
@@ -18,6 +20,7 @@ let json = `[{
     "photo": "/superman.jpg"
 },{
     "name": "Железный человек",
+    "ratingname": "ironman",
     "universe": "Marvel Comics",
     "alter_ego": "Тони Старк",
     "activity": "гений, миллиардер, плейбой, филантроп",
@@ -27,6 +30,7 @@ let json = `[{
     "photo": "/iron_man.jpg"
 },{
     "name": "Спайдер-мен/Человек-паук",
+    "ratingname": "spiderman",
     "universe": "Marvel Comics",
     "alter_ego": "Питер Паркер",
     "activity": "борец за справедливость, студент, фотограф",
@@ -36,6 +40,7 @@ let json = `[{
     "photo": "/spiderman.jpg"
 },{
     "name": "Капитан Америка",
+    "ratingname": "captainamerica",
     "universe": "Marvel Comics",
     "alter_ego": "Стивен Роджерс",
     "activity": "супер-солдат",
@@ -45,6 +50,7 @@ let json = `[{
     "photo": "/captain_america.jpg"
 },{
     "name": "Тор",
+    "ratingname": "thor",
     "universe": "Marvel Comics",
     "alter_ego": "нет; полное имя — Тор Одинсон",
     "activity": "борец за справедливость, скандинавский бог",
@@ -54,6 +60,7 @@ let json = `[{
     "photo": "/thor.jpg"
 },{
     "name": "Халк",
+    "ratingname": "hulk",
     "universe": "Marvel Comics",
     "alter_ego": "Брюс Беннер",
     "activity": "супергерой, борец за справедливость, ученый-биохимик",
@@ -63,6 +70,7 @@ let json = `[{
     "photo": "/hulk.jpg"
 },{
     "name": "Чудо-женщина",
+    "ratingname": "wonderwoman",
     "universe": "DC Comics",
     "alter_ego": "Диана Принс",
     "activity": "супергероиня, секретарь-референт",
@@ -72,6 +80,7 @@ let json = `[{
     "photo": "/wonder_woman.jpg"
 },{
     "name": "Черная вдова",
+    "ratingname": "blackwidow",
     "universe": "Marvel Comics",
     "alter_ego": "Наташа Романофф",
     "activity": "супергероиня, шпионка",
@@ -81,6 +90,7 @@ let json = `[{
     "photo": "/black_widow.jpg"
 },{
     "name": "Дэдпул",
+    "ratingname": "deadpool",
     "universe": "Marvel Comics",
     "alter_ego": "Уэйд Уинстон Уилсон",
     "activity": "антигерой, наемник",
