@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomFacts</title>
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(91, 200, 250), pink);
+        }
+
+        .container {
+            display: grid;
+            margin-left: 20vh;
+            margin-right: 20vh;
+            grid-template-rows: 2fr 1fr;
+            grid-template-columns: 2fr 1fr;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <div>
+            <h1>Привет! Узнаем пару интересных фактов о числах?!
+                <p>Наш милый четвероногий дружок с радостью тебе в этом
+                    поможет)</p>
+            </h1>
+            <div class="userfact">
+                <label for="typefact">
+                    <h3>Выберите тип факта</h3>
+                </label>
+                <select id="typefact">
+                    <option value="trivia">Факт из жизни</option>
+                    <option value="math"> Математический факт</option>
+                    <option value="date">Вопрос про дату</option>
+                    <option value="year">Вопрос про год</option>
+                </select>
+            </div>
+            <div class="usernumber">
+                <label for="number">
+                    <h3>Введите число</h3>
+                </label>
+                <input id="number" value="0">
+                <p>(для даты используйте формат MM/DD)</p>
+            </div>
+            <button type="button" onclick="addRandomFact()">Показать факт</button>
+        </div>
+        <div>
+            <img src="" id="dog">
+        </div>
+        <div id="outputfact"></div>
+    </main>
+    <script src="/assets/js/randomfacts.js"></script>
+</body>
+
+</html>
